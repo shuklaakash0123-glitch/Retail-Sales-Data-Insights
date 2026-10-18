@@ -43,3 +43,20 @@ This project analyzes retail sales data to identify sales trends, regional perfo
 - Payment Mode Analysis
 - Quantity Sold
 - Average Order Value
+
+## Dataset
+
+The dataset contains retail transaction records with information about orders, customers, products, categories, regions, payment methods, quantities, prices, and sales.
+
+### Dataset Columns
+- Order_ID
+- Order_Date
+- Customer
+- Product
+- Category
+- Quantity
+- Unit_Price
+- Region
+- Payment_Mode
+- Sales
+- Month
