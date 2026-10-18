@@ -50,3 +50,12 @@ SELECT
 FROM retail_sales
 GROUP BY Payment_Mode
 ORDER BY total_sales DESC;
+
+-- Query 7: Quantity Sold by Category
+
+SELECT
+    Category,
+    SUM(Quantity) AS total_quantity
+FROM retail_sales
+GROUP BY Category
+ORDER BY total_quantity DESC;
