@@ -65,3 +65,9 @@ ORDER BY total_quantity DESC;
 SELECT
     AVG(Sales) AS average_order_value
 FROM retail_sales;
+
+-- Query 9: Total Quantity Sold
+
+SELECT
+    SUM(Quantity) AS total_quantity_sold
+FROM retail_sales;
