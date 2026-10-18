@@ -1,0 +1,11 @@
+﻿Order_ID,Order_Date,Customer,Product,Category,Quantity,Unit_Price,Region,Payment_Mode,Sales,Month
+1001,05/01/2025,Rahul,Laptop,Electronics,1,55000,North,UPI,55000,January
+1002,07/01/2025,Priya,Mouse,Accessories,3,800,East,Cash,2400,January
+1003,12/01/2025,Amit,Keyboard,Accessories,2,1200,North,Card,2400,January
+1004,03/02/2025,Neha,Monitor,Electronics,1,15000,West,UPI,15000,February
+1005,10/02/2025,Rahul,Laptop,Electronics,1,55000,North,Card,55000,February
+1006,15/02/2025,Sanjay,Headphones,Accessories,2,2500,South,UPI,5000,February
+1007,02/03/2025,Priya,Mouse,Accessories,4,800,East,Cash,3200,March
+1008,08/03/2025,Amit,Monitor,Electronics,1,15000,West,Card,15000,March
+1009,15/03/2025,Neha,Keyboard,Accessories,2,1200,North,UPI,2400,March
+1010,20/03/2025,Rahul,Laptop,Electronics,1,55000,North,UPI,55000,March
