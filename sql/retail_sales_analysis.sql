@@ -41,3 +41,12 @@ FROM retail_sales
 GROUP BY Product
 ORDER BY total_sales DESC
 LIMIT 5;
+
+-- Query 6: Payment Mode Analysis
+
+SELECT
+    Payment_Mode,
+    SUM(Sales) AS total_sales
+FROM retail_sales
+GROUP BY Payment_Mode
+ORDER BY total_sales DESC;
