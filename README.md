@@ -60,3 +60,16 @@ The dataset contains retail transaction records with information about orders, c
 - Payment_Mode
 - Sales
 - Month
+
+## Project Structure
+
+```text
+Retail-Sales-Data-Insights/
+│
+├── Data/
+│   └── retail_sales_cleaned.csv
+│
+├── sql/
+│   └── retail_sales_analysis.sql
+│
+└── README.md
