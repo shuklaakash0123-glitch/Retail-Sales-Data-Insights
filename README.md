@@ -73,3 +73,16 @@ Retail-Sales-Data-Insights/
 │   └── retail_sales_analysis.sql
 │
 └── README.md
+
+## Key Insights
+
+The analysis helps identify:
+
+- Overall retail sales performance
+- Monthly sales trends
+- Best-performing regions
+- Best-performing product categories
+- Top-selling products
+- Customer payment preferences
+- Total quantity sold
+- Average order value
