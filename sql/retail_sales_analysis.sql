@@ -22,3 +22,12 @@ SELECT
 FROM retail_sales
 GROUP BY Region
 ORDER BY total_sales DESC;
+
+-- Query 4: Category-wise Sales Analysis
+
+SELECT
+    Category,
+    SUM(Sales) AS total_sales
+FROM retail_sales
+GROUP BY Category
+ORDER BY total_sales DESC;
