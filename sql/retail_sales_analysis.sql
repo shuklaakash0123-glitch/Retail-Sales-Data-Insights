@@ -13,3 +13,12 @@ SELECT
 FROM retail_sales
 GROUP BY Month
 ORDER BY Month;
+
+-- Query 3: Region-wise Sales Analysis
+
+SELECT
+    Region,
+    SUM(Sales) AS total_sales
+FROM retail_sales
+GROUP BY Region
+ORDER BY total_sales DESC;
