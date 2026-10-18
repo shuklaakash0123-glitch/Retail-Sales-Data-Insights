@@ -71,3 +71,12 @@ FROM retail_sales;
 SELECT
     SUM(Quantity) AS total_quantity_sold
 FROM retail_sales;
+
+-- Query 10: Sales by Product
+
+SELECT
+    Product,
+    SUM(Sales) AS total_sales
+FROM retail_sales
+GROUP BY Product
+ORDER BY total_sales DESC;
