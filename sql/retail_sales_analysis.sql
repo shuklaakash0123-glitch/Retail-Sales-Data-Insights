@@ -31,3 +31,13 @@ SELECT
 FROM retail_sales
 GROUP BY Category
 ORDER BY total_sales DESC;
+
+-- Query 5: Top 5 Best-Selling Products
+
+SELECT
+    Product,
+    SUM(Sales) AS total_sales
+FROM retail_sales
+GROUP BY Product
+ORDER BY total_sales DESC
+LIMIT 5;
