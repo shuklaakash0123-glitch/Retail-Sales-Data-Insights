@@ -22,3 +22,24 @@ This project analyzes retail sales data to identify sales trends, top-performing
 - Best Performing Category: Electronics
 - Best Performing Region: North
 - Best Sales Month: March
+
+## Project Overview
+
+This project analyzes retail sales data to identify sales trends, regional performance, product performance, and customer payment preferences.
+
+### Tools & Technologies
+- Python
+- Pandas
+- SQL
+- Excel
+- Power BI
+
+### Key Analysis
+- Total Sales
+- Monthly Sales Trends
+- Region-wise Sales
+- Category-wise Sales
+- Top 5 Best-Selling Products
+- Payment Mode Analysis
+- Quantity Sold
+- Average Order Value
