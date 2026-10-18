@@ -59,3 +59,9 @@ SELECT
 FROM retail_sales
 GROUP BY Category
 ORDER BY total_quantity DESC;
+
+-- Query 8: Average Order Value
+
+SELECT
+    AVG(Sales) AS average_order_value
+FROM retail_sales;
