@@ -86,3 +86,11 @@ The analysis helps identify:
 - Customer payment preferences
 - Total quantity sold
 - Average order value
+
+## Author
+
+**Akash Kumar Shukla**
+
+BSc Computer Science Graduate | Aspiring Data Analyst
+
+Skills: Python | SQL | Power BI | Excel
